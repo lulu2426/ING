@@ -41,6 +41,7 @@ Vue.use(MintUI)
 //状态管理..
 import Vuex from 'vuex'
 Vue.use(Vuex)
+//购物车状态管理
 // 每次刚进入 网站，肯定会 调用 main.js 在刚调用的时候，先从本地存储中把购物车的数据读出来，放到 store 中
 var car = JSON.parse(localStorage.getItem('car') || '[]')
 var store = new Vuex.Store({
