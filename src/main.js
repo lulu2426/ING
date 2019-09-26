@@ -38,7 +38,7 @@ import './lib/mui/css/mui.min.css'
 import './lib/mui/css/icons-extra.css'
 
 Vue.use(MintUI)
-
+//状态管理..
 import Vuex from 'vuex'
 Vue.use(Vuex)
 // 每次刚进入 网站，肯定会 调用 main.js 在刚调用的时候，先从本地存储中把购物车的数据读出来，放到 store 中
